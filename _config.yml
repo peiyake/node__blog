@@ -99,4 +99,6 @@ theme: webstack
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:peiyake/peiyake.github.io.git
+  branch: master
