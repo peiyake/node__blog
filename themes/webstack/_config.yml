@@ -106,3 +106,10 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+
+valine:
+ appid:  KmguPzUzYoAUXeMp0zqvxPPj-gzGzoHsz
+ appkey:  bq515N7CFPO5fHr3XlEXp5EJ
+ verify: true 
+ notify: true 
+ placeholder: 请在这里留言。。。

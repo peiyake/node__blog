@@ -14,7 +14,21 @@
     </div>
   </nav>
   <div class="page-container">
-    <%- page.content %>
+  <%- page.content %>
+
+  <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
+  <section id="comments" class="comments">
+    <style>
+      .comments{margin:30px;padding:10px;background:#fff}
+      @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+    </style>
+    <%- partial('_plugins/valine', {
+      key: page.slug,
+      title: page.title,
+      url: config.url+url_for(page.path)
+    }) %>
+  </section>
+  <% } %>
     <!--
     <div class="main-content">
       <div class="row">
