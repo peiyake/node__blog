@@ -14,10 +14,19 @@
     </div>
   </nav>
   <div class="page-container">
+    <div style="float:right">
+      <span>
+        <em class="post-meta-item-text">Author:<%- config.author %>,</em>
+      </span>
+      <span id="<%- url_for(page.path) %>" class="leancloud_visitors" data-flag-title="<%- page.title %>">
+        <em class="post-meta-item-text">Pageviews:</em>
+        <i class="leancloud-visitors-count">loading</i>
+      </span>
+    </div>
   <%- page.content %>
 
   <% if (theme.valine && theme.valine.appid && theme.valine.appkey){ %>
-  <section id="comments" class="comments">
+  <section id="comments" class="comments" style="margin-left:0px !important">
     <style>
       .comments{margin:30px;padding:10px;background:#fff}
       @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}

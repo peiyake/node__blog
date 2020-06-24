@@ -113,3 +113,4 @@ valine:
  verify: true 
  notify: true 
  placeholder: 请在这里留言。。。
+ visitor: true
