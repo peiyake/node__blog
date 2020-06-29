@@ -84,6 +84,10 @@ aboutPage:
 
 since: 2019
 
+#code_theme: github  #tomorrow/tomorrow_night
+#code_theme: tomorrow #tomorrow/tomorrow_night
+code_theme: tomorrow_night  #tomorrow/tomorrow_night
+
 js:
   jquery: /js/jquery-1.11.1.min.js
   bootstrap: /js/bootstrap.min.js
@@ -96,6 +100,7 @@ js:
   lozad: /js/lozad.min.js
   html5shiv: /js/html5shiv.min.js
   respond: /js/respond.min.js
+  google_prettify: /js/prettify.js
 
 css:
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
@@ -106,6 +111,11 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+  #google_prettify: /css/prettify.css
+  #tomorrow: /css/tomorrow.css
+  #tomorrow_min: /css/tomorrow.min.css
+  #github: /css/github.css
+  #github_min: /css/github.min.css
 
 valine:
  appid:  KmguPzUzYoAUXeMp0zqvxPPj-gzGzoHsz

@@ -30,9 +30,9 @@ ls ./rpmbuild/SOURCE/ppp-2.4.5.tar.gz
 
 照旧 `main-> start_link`
 
-## `start_link`
+## start_link
 
-```c
+```
 void start_link(unit)
     int unit;
 {
@@ -107,7 +107,7 @@ void start_link(unit)
 }
 ```
 
-## `the_channel->connect()`
+## the_channel->connect()
 
 ```c
 static int
