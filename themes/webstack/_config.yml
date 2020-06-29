@@ -84,9 +84,9 @@ aboutPage:
 
 since: 2019
 
-#code_theme: github  #tomorrow/tomorrow_night
-#code_theme: tomorrow #tomorrow/tomorrow_night
-code_theme: tomorrow_night  #tomorrow/tomorrow_night
+#code_theme: github  
+#code_theme: tomorrow 
+code_theme: tomorrow_night 
 
 js:
   jquery: /js/jquery-1.11.1.min.js
