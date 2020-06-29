@@ -5,8 +5,6 @@ description: ARP协议报文格式详解
 date: 2020-06-22 19:10:42
 ---
 
-# 地址解析协议
-
 地址解析协议（英语：Address Resolution Protocol，缩写：ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它在IPv4中极其重要。
 
 _注意:本文概念性总结，均来自维基百科[ARP协议](https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE)上的文字介绍_

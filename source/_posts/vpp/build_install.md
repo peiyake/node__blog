@@ -5,8 +5,6 @@ description: VPP 编译、安装、运行总结
 date: 2020-06-22 19:10:42
 ---
 
-# VPP 编译、安装、运行
-
 ## 下载源码
 
 [参考官方文档](https://wiki.fd.io/view/VPP/Pulling,_Building,_Running,_Hacking_and_Pushing_VPP_Code)

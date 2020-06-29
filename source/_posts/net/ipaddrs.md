@@ -1,11 +1,10 @@
 ---
-title: IP地址分类
+title: IP地址知识点总结
 type: net
 description: IP地址分类方法、掩码作用等
 date: 2020-06-22 19:10:42
 ---
 
-# IP地址知识点总结
 
 ## IPV4 IP地址分类
 

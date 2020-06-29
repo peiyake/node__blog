@@ -5,8 +5,6 @@ description: 收藏的网卡命名规则
 date: 2020-06-22 19:10:42
 ---
 
-# 网卡命名规则
-
 >本文内容来自官方说明 [Red Hat 一致网络设备命名](https://access.redhat.com/documentation/zh-cn/red_hat_enterprise_linux/7/html/networking_guide/ch-consistent_network_device_naming)
 
 ![1](/images/1.png)

@@ -5,6 +5,8 @@ description: /proc/pid/pagemap对于一个进程虚拟地址到物理地址映�
 date: 2020-06-22 19:10:42
 ---
 
+`/proc/pid/pagemap `对于一个进程虚拟地址到物理地址映射的描述，这里包含了该进程所有用到的虚拟地址空间的映射描述信息
+
 # Linux之 /proc/<pid>/pagemap 理解
 
 ## 含义理解

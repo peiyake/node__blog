@@ -4,10 +4,8 @@ type: linuxc
 description: 本文对pppd源码插件加载流程进行解读
 date: 2020-06-22 19:10:42
 ---
-# pppd源码详解一 （插件加载）
 
-* pppd-2.4.5
-* CentOS-7.5.1804
+本文使用 `pppd-2.4.5`在`CentOS-7.5.1804`进行测试.
 
 ## 获取rpm包中源码
 

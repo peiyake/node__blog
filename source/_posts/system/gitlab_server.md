@@ -5,7 +5,7 @@ description: 搭建gitlab server 服务器
 date: 2020-06-22 19:10:42
 ---
 
-# 搭建gitlab server
+gitlab作为一个开源git仓库集成环境很受欢迎，自己工作中也对相关问题进行过处理，这里简单总结记录一下。
 
 ## 系统环境
 

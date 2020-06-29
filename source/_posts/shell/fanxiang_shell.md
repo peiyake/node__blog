@@ -4,11 +4,8 @@ type: shell
 description: 反向shell的工作方式是远程计算机将自己的shell发送给特定的用户，而不是将shell绑定到一个端口上
 date: 2020-06-22 19:10:42
 ---
-# 反向shell
-
-## 什么是反向shell
-
 >[反向shell](https://baike.baidu.com/item/%E5%8F%8D%E5%90%91shell/16751835?fr=aladdin)的工作方式是远程计算机将自己的shell发送给特定的用户，而不是将shell绑定到一个端口上。后者在很多环境中是无法访问的。这样，你就可以对远程服务器执行root命令。
+
 ## 测试环境
 
 * 控制端：10.60.188.188 、 CentOS-7

@@ -1,11 +1,9 @@
 ---
-title: DHCP 协议
+title: DHCP协议详解
 type: net
 description: DHCP协议报文格式详解
 date: 2020-06-22 19:10:42
 ---
-
-# DHCP协议详解
 
 这里引用[百度百科-DHCP](https://baike.baidu.com/item/DHCP/218195?fromtitle=DHCP%E5%8D%8F%E8%AE%AE&fromid=1989741)上的一段解释
 

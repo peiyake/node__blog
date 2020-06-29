@@ -5,8 +5,6 @@ description: 在UNIX系统中，常将“主内存”(main memory) 称为核心(
 date: 2020-06-22 19:10:42
 ---
 
-# 使用abrt监控程序coredump
-
 > 在UNIX系统中，常将“主内存”(main memory) 称为核心(core)，因为在使用半导体作为内存材料之前，便是使用核心(core)。而核心映像(core image) 就是 “进程”(process)执行当时的内存内容。当进程发生错误或收到“信号”(signal) 而终止执行时，系统会将核心映像写入一个文件，以作为调试之用，这就是所谓的核心转储(core dump)。----来自 [百度百科-核心转储](https://baike.baidu.com/item/%E6%A0%B8%E5%BF%83%E8%BD%AC%E5%82%A8/16772089?fromtitle=core%20dump&fromid=2971395&fr=aladdin)
 
 ## 程序产生coredump的原因

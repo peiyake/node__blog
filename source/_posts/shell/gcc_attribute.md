@@ -5,13 +5,11 @@ description: GCC关键字 __attribute__ 用来对变量、函数、结构体、�
 date: 2020-06-22 19:10:42
 ---
 
-# GCC之 '_\_\_attribute\_\__'用法
-
 The keyword \_\_attribute\_\_ allows you to specify special properties of variables, function parameters, or structure, union, and, in C++, class members. 
 
 GCC关键字 \_\_attribute\_\_ 用来对变量、函数、结构体、联合体和C++类成员进行一些特殊属性设置
 
-## _\_\_attribute\_\__ 语法
+## \_\_attribute\_\_ 语法
 
 An attribute specifier is of the form **\_\_attribute\_\_ ((_attribute-list_))**. An attribute list is a possibly empty comma-separated sequence of attributes, where each attribute is one of the following:
 

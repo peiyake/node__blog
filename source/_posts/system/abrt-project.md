@@ -5,8 +5,6 @@ description: ABRT 是一个工具集，用于检测和报告应用程序的crash
 date: 2020-06-22 19:10:42
 ---
 
-# ABRT 是什么？
-
 >ABRT is a set of tools to help users detect and report application crashes. Its main purpose is to ease the process of reporting an issue and finding a solution.
 
 >ABRT 是一个工具集，用于检测和报告应用程序的crash信息；它主要的目的是协助处理问题并找到解决方案

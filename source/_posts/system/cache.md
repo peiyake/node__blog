@@ -5,8 +5,6 @@ description: 计算机CPU的速度和主存的速度差距越来越大，这样�
 date: 2020-06-22 19:10:42
 ---
 
-# 高速缓存（cache）的工作原理
-
 >本文内容总结自北京大学陆俊林老师的[视频课程](https://www.coursera.org/lecture/jisuanji-zucheng/705-gao-su-huan-cun-de-gong-zuo-yuan-li-eTwwv)
 
 计算机CPU的速度和主存的速度差距越来越大，这样对计算机的快速工作产生很大的影响。而高速缓存（cache）的出现大大缓解了这个局面。

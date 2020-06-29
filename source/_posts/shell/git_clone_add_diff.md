@@ -5,8 +5,6 @@ description: Git命令 clone、add、diff
 date: 2020-06-22 19:10:42
 ---
 
-# git clone/add/diff
-
 本文使用github上创建的示例仓库进行练习 `git@github.com:peiyake/git_cmd_test.git`
 
 ## [git clone](https://git-scm.com/docs/git-clone/zh_HANS-CN)

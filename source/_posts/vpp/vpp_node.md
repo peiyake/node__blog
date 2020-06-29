@@ -5,8 +5,6 @@ description: CentOS Linux release 7.5.1804 (Core),VPP-tag-19.089
 date: 2020-06-22 19:10:42
 ---
 
-# VPP - node 示意
-
 ## VPP 源码目录介绍
 
 ![源码介绍](/images/vpp_code.png)

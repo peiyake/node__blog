@@ -5,7 +5,7 @@ description: 使用irqbalance/smp irq affinity/rps,rfs 技术进行网络性能�
 date: 2020-06-22 19:10:42
 ---
 
-# Linux性能调优之irqbalance、smp irq affinity、rps/rfs
+irqbalance 是Linux内核自带的一个中断调节服务，它根据网络负载情况自动将网卡中断和CPU进行亲和请设置。事实上它就是 **自动的 smp irq affinity** 它有很好的动态调节效果，但是对于大量小包的网络环境，irqbalance几乎是无效的。
 
 ## 功能说明
 

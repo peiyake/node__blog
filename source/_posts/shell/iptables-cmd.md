@@ -4,7 +4,6 @@ type: shell
 description: iptable命令常用功能使用方法总结
 date: 2020-06-22 19:10:42
 ---
-# iptables 专题学习
 
 iptables是linux下的防火墙管理工具,它是linux系统下和NETFILETER架构模块交互的用户态命令行工具,通过iptable可以对linux的NETFILTER配置各种规则,来达到对网络防火墙进行管理的目的. NETFILTER本身就是非常复杂的一套东西, 本文这里主要介绍iptables的使用方法,有关NETFILTER架构的有关知识可以查看我的另一篇文章 `NETFILTER专题学习`。
 
