@@ -4,7 +4,6 @@
       <div class="navbar-brand">
         <a href="/index.html" class="logo">
           <img src="<%= theme.logo.dark %>" width="180px" alt="" class="hidden-xs">
-          <img src="<%= theme.logo.expanded %>" width="180px" alt="" class="visible-xs">
         </a>
       </div>
       <div class="navbar-mobile-clear"></div>
@@ -52,7 +51,7 @@
     }
     var dom = document.getElementsByTagName('img');
     for(var i=0,len=dom.length; i<len; i++){
-      dom[i].className += 'img-responsive';
+      dom[i].className += ' img-responsive';
     }
   </script>
 
