@@ -23,7 +23,7 @@
     <a itemprop="name" href="<%- config.url %>" rel="author"><%- config.author %></a> 
     <em class="page_meta">,Last update
       <span class="post-time">on 
-        <time datetime="<%- page.date %>" itemprop="datePublished"><script>var date = new Date().Format('yy-MM-dd hh:mm');document.write(date);</script></time>
+        <time datetime="<%- page.date %>" itemprop="datePublished"><script>var times=<%- page.date %>;var date = new Date(times).Format('yy-MM-dd hh:mm');document.write(date);</script></time>
       </span>
     </em>
     <span id="<%- url_for(page.path) %>" class="leancloud_visitors" data-flag-title="<%- page.title %>">
@@ -49,6 +49,10 @@
     var dom = document.getElementsByTagName('a');
     for(var i=0,len=dom.length; i<len; i++){
       dom[i].style.color = '#2d96bd';
+    }
+    var dom = document.getElementsByTagName('img');
+    for(var i=0,len=dom.length; i<len; i++){
+      dom[i].className += 'img-responsive';
     }
   </script>
 

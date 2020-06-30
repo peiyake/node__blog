@@ -30,7 +30,7 @@ $ hexo server
 
 完成上述步骤，此时打开本地web页面 http://localhost:4000，此时hexo默认的静态站点就建好了。如图：
 
-<img src="/images/hexo_demo.png" width="60%" height="60%">
+<img src="/images/hexo_demo.png">
 
 ### 搭建本站
 
@@ -62,7 +62,7 @@ theme: hexo-theme-webstack      # 把主题修改
 
 再次打开本地web页面 http://localhost:4000，如图：
 
-<img src="/images/hexo_piak.png" width="60%" height="60%">
+<img src="/images/hexo_piak.png">
 
 ### hexo-theme-webstack 使用说明
 
