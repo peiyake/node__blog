@@ -1,5 +1,5 @@
 ---
-title: 建站指南GooGle
+title: 建站指南
 type: guide
 description: 如果你想搭建跟博主一样的博客，那么请参考此建站指南
 date: 2020-06-24 18:06:45
