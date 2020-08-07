@@ -1,4 +1,4 @@
-favicon: /favicon.ico
+favicon: /images/favicon.png
 banner: /images/webstack_banner_cn.png
 
 logo:
@@ -47,6 +47,14 @@ menu:
       - name: 系统和服务
         icon: fas fa-folder
         englishName: system
+        config: devTools
+      - name: OpenWRT
+        icon: fas fa-folder
+        englishName: openwrt
+        config: devTools
+      - name: WIFI开发
+        icon: fas fa-folder
+        englishName: wifi
         config: devTools
       - name: 软件工程
         icon: fas fa-folder

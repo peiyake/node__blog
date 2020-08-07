@@ -11,7 +11,7 @@
           <%= config.title %>
   </title>
   <meta name="keywords" content="<%= config.keywords %>">
-  <meta name="description" content="<%= config.description %>">
+  <meta name="description" content="<%= page.description%>,<%= config.description %>">
   <link rel="shortcut icon" href="<%= theme.favicon %>">
   <%- css(Object.values(theme.css)) %>
   <%- js(theme.js.jquery) %>
