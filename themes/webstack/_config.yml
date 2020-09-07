@@ -48,6 +48,10 @@ menu:
         icon: fas fa-folder
         englishName: system
         config: devTools
+      - name: UBOOT
+        icon: fas fa-folder
+        englishName: uboot
+        config: devTools
       - name: OpenWRT
         icon: fas fa-folder
         englishName: openwrt
