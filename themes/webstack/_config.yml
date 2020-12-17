@@ -81,7 +81,10 @@ about:
   url: /about/
   icon: far fa-heart
   name: 关于本站
-
+manpage:
+  url: /manpage/html/
+  icon: far fa-heart
+  name: 示例代码
 aboutPage:
   website:
     head: 关于本站

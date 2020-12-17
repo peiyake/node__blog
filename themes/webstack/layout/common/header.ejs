@@ -43,6 +43,14 @@
         <% } %>
       </li>
       <% } %>
+      <% if (theme.manpage) { %>
+      <li class="submit-tag">
+        <a href="<%= url_for(theme.manpage.url) %>">
+          <i class="<%= theme.manpage.icon %>"></i>
+          <span class="tooltip-blue"><%= theme.manpage.name %></span>
+        </a>
+      </li>
+      <% } %>
       <% if (theme.about) { %>
       <li class="submit-tag">
         <a href="<%= url_for(theme.about.url) %>">
